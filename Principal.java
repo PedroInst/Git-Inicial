@@ -10,7 +10,7 @@ public class Principal {
         hora();
     }
 
-    public static hora() {
+    public static void hora() {
 
         LocalTime horaActual = LocalTime.now();
         System.out.println("Hora actual: " + horaActual);
